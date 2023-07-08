@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Playfair+Display:wght@400;700;800&family=Quicksand&family=Roboto&display=swap');
+
+*{
+    font-family: 'Kablammo', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(215, 215, 215);
+}
+
+h1{
+    text-align: center;
+    margin-top: 14rem;
+    color: rgb(79, 77, 77);
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 10px;
+}
+
+ul li{
+    padding: 20px;
+    font-weight: 800;  
+    border: 1px black solid;
+    border-radius: 5px;
+    box-shadow: black 1px 1px 10px;
+    background-color: white;
+}
+
+ul li p{
+    padding: 15px;
+    margin-bottom: 50px;
+    border: 1px rgba(0, 0, 0, 0.082) solid;
+}
+
+ul li img{
+    width: 120px;
+}
+
+.tools{
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+}
+
+.identificador{
+    color: red;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.ident{
+    color: red;
+    font-weight: 800;
+}
